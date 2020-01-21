@@ -58,7 +58,7 @@ a{
 
 /*=====Hero Section========*/
 .hero-section{
-    background: url(../images/hero.png) no-repeat top center;
+    background: url(../img/hero.png) no-repeat top center;
     background-size: cover;
     margin-top: 90px;
 }
