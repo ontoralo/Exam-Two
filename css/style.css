@@ -78,7 +78,7 @@ a{
 }
 .btn-head{
     display: block;
-    font-size: 1.2em;
+    font-size: 1.1em;
     font-weight: 600;
     background-color: #99C50A;
     border: none;
@@ -141,7 +141,8 @@ a{
     border-radius: 10px;
     padding: 15px 20px;
 }
-
+.btn-success{
+    background-color:red !important;
 
 /*========Blog Section======*/
 #blog{
