@@ -1,10 +1,5 @@
-/**Author
-Name: Monirozzaman Moman
-email: moman_engr@hotmail.com
- */
-
+/*======Index===== */
 /*
-======Index=====
 1. Header/Navigation
 2. Hero/Home
 3. How it works
@@ -55,9 +50,9 @@ a{
     max-width: 80%;
 }
 .nav-link{
-    font-size: 1em;
+    font-size: 13.2px;
     font-weight: 600;
-    color: #ADADAD;
+    color: #7b7474;
     text-transform: uppercase;
 }
 
