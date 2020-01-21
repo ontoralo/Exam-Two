@@ -1,0 +1,10 @@
+/**Media Query**/
+
+/*====Mobile Device=====*/
+@media(min-width: 434px) and (max-width: 575px)  {
+    .btn-facilisis{
+        top: 78%;
+        right: 15px;
+        padding: 10px 40px;
+    }
+}

@@ -1,0 +1,219 @@
+/**Author
+Name: Monirozzaman Moman
+email: moman_engr@hotmail.com
+ */
+
+/*
+======Index=====
+1. Header/Navigation
+2. Hero/Home
+3. How it works
+4. Discover a project
+5. Blog
+6. Find Out More
+7.Footer
+ */
+
+/*
+========Theme CSS Start======
+ */
+
+/*=====Global CSS============*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+  /*
+      font-family: 'Nunito', sans-serif;
+    */
+    font-family: 'Open Sans', sans-serif;
+    font-size: .9em;
+}
+.no-padding{
+    padding: 0;
+}
+.no-marging{
+    margin: 0;
+}
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: .9em;
+}
+/*====Navigation Section===*/
+#mainNav{
+    background-color: #ffffff;
+    padding: 25px 0;
+}
+.logo{
+    max-width: 80%;
+}
+.nav-link{
+    font-size: 1em;
+    font-weight: 600;
+    color: #ADADAD;
+    text-transform: uppercase;
+}
+
+/*=====Hero Section========*/
+.hero-section{
+    background: url(../images/hero.png) no-repeat top center;
+    background-size: cover;
+    margin-top: 90px;
+}
+.hero-food{
+    max-width: 30%!important;
+    padding-bottom: 20px;
+}
+.hero-section h1{
+    padding-top: 20%;
+    color: #ffffff;
+    font-size: 2.6em;
+    font-weight: 600;
+}
+.hero-section span{
+    font-weight: 300;
+    font-size: 1em;
+}
+.btn-head{
+    display: block;
+    font-size: 1.2em;
+    font-weight: 600;
+    background-color: #99C50A;
+    border: none;
+    border-radius: 10px;
+    padding: 17px 34px;
+    margin: 5% auto 12%;
+}
+
+/*======Work Section=======*/
+#work{
+    background-color: #ffffff;
+}
+.icon{
+    padding-top: 6%;
+    padding-bottom: 3%;
+}
+#work h2{
+    font-size: 2.6em;
+    font-weight: 600;
+    color: #515151;
+}
+.content-box{
+    padding: 3% 0;
+}
+#work p{
+    color: #919191;
+    font-size: 1.4em;
+    padding: 10px 0;
+}
+
+/*======Project Section========*/
+#project h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6em;
+    font-weight: 600;
+    color: #515151;
+}
+#project p{
+    color: #515151;
+    font-size: 1.4em;
+}
+
+.properties{
+    background-color: #E2F8FF;
+}
+.buyers{
+    background-color: #F5F9EB;
+}
+.properties, .buyers{
+    padding: 40px;
+}
+.btn-project-one{
+    background-color: #26A6D1;
+}
+.btn-project-two{
+    background-color: #ADD136;
+}
+.btn-project-one, .btn-project-two{
+    border: none;
+    border-radius: 10px;
+    padding: 15px 20px;
+}
+
+
+/*========Blog Section======*/
+#blog{
+    background-color: #ffffff;
+}
+#blog h2{
+    color: #515151;
+    font-size: 2.4em;
+    font-weight: 600;
+}
+#blog p{
+    color: #8F8F8F;
+    font-size: 1.3em;
+    line-height: 30px;
+}
+.btn-blog{
+    border-radius: 10px;
+    padding: 15px 20px;
+}
+.card-deck{
+    padding: 50px 0;
+}
+.card{
+    border-radius: 15px!important;
+}
+.img-box{
+    position: relative;
+}
+.btn-card{
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    border: none;
+    border-radius: 5px;
+}
+.card-title{
+    font-weight: 600;
+    color: #484848;
+    font-size: 1.4em;
+}
+.card-text{
+    font-size: .9em!important;
+    color: #A5A5A5;
+}
+.co{
+    font-size: 1em;
+    color: #A5A5A5;
+}
+.cb{
+    display: block;
+    border-bottom: 1px solid #D6D6D6;
+    width: 100%;
+    margin: 10px auto;
+}
+.card-body h6{
+    color: #626262;
+    font-size: 1.2em;
+    font-weight: 600;
+    padding: 10px 0;
+}
+.fa.fa-play{
+    color: #ADD136;
+}
+/*=======Find More Section==========*/
+
+/*=====Footer=====*/
+#footer{
+    padding: 15px 0;
+    border-top:1px solid #D6D6D6 ;
+}
